@@ -1,0 +1,7 @@
+[ 2023-05-10 16:52:45,121 ] 8 root - INFO - Reading data from database: aip and collection: income
+[ 2023-05-10 16:52:45,549 ] 10 root - INFO - Found columns: Index(['_id', 'age', 'workclass', 'fnlwgt', 'education', 'education-num',
+       'marital-status', 'occupation', 'relationship', 'race', 'sex',
+       'capital-gain', 'capital-loss', 'hours-per-week', 'country', 'salary'],
+      dtype='object')
+[ 2023-05-10 16:52:45,550 ] 12 root - INFO - Dropping column: _id 
+[ 2023-05-10 16:52:45,561 ] 14 root - INFO - Row and columns in df: (32561, 15)
