@@ -1,0 +1,6 @@
+README.md
+setup.py
+adult_census.egg-info/PKG-INFO
+adult_census.egg-info/SOURCES.txt
+adult_census.egg-info/dependency_links.txt
+adult_census.egg-info/top_level.txt
