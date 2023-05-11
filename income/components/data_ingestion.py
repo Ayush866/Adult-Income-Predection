@@ -29,8 +29,9 @@ class DataIngestion:
             logging.info("Save data in feature store")
 
             #Dropping 2 columns
-            df.drop(['fnlwgt', 'education'], axis=1, inplace=True)
-           
+            #df.drop(['fnlwgt', 'education'], axis=1, inplace=True)
+
+            #Replacing nan values
             df.replace([' ?', np.NAN], inplace=True)
 
             df.replace({" <=50K":0," >50K":1}, inplace=True)
